@@ -1,13 +1,19 @@
 import JobProblem from "../../../assets/problem-in-job-finding.png"
 import MoralDown from "../../../assets/moral-down.png"
+import BackgroundReactangle from "../../../assets/background_rectangle.svg"
 import { motion } from "framer-motion"
 import FamilyIssues from "../../../assets/family-isues.png"
 import StressManagement from "../../../assets/stress-managment.png"
 
 const ReadAllArticles = () => {
   return (
-    <div className="container my-20">
-      <div className="relative lg:h-[500px] bg-offwhite  rounded-3xl w-full py-5 lg:py-0">
+    <div className="relative container my-20">
+      <div className="relative lg:h-[560px] rounded-3xl w-full py-5 lg:py-0"  style={{
+          backgroundImage: `url(${BackgroundReactangle})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}>
         <div className="relative z-[10] flex flex-col lg:flex-row p-7 items-center justify-between h-full">
 
           <motion.div
@@ -16,7 +22,7 @@ const ReadAllArticles = () => {
            transition={{ duration: 0.9, delay: 0.25 }}
            viewport={{ once: true }}
           className="lg:w-1/2 w-full lg:p-10 p-3">
-            <h2 className="text-3xl md:text-[48px] font-prata leading-tight">
+            <h2 className="heading-2">
               Find the right person
               <span className="text-primary"> For what you need.</span>
             </h2>
@@ -40,13 +46,13 @@ const ReadAllArticles = () => {
                 <p className="font-light text-[12px] text-center">Struggling in connecting with family members, leading to conflicts and misunderstandings in relationships</p>
               </div>
             </div>
-            <div className="flex flex-row justify-around">
-              <div className="flex flex-col max-w-[200px] items-center justify-center">
+            <div className="flex flex-row justify-around ">
+              <div className="flex flex-col max-w-[200px] items-center justify-center lg:mt-10">
                 <img src={JobProblem} alt="stress management" className="w-[54px]"/>
                 <p className="text-center">Problem in <span className="text-secondary">Job Finding</span></p>
                 <p className="font-light text-[12px] text-center">Challenges in finding a job include lack of opportunities, insufficient skills, or limited networking connections.</p>
               </div>
-              <div className="flex flex-col max-w-[200px] items-center justify-center">
+              <div className="flex flex-col max-w-[200px] items-center justify-center ">
                 <img src={MoralDown} alt="stress management" className="w-[104px] rounded-sm"/>
                 <p className="text-center">Moral<span className="text-secondary">Down</span></p>
                 <p className="font-light text-[12px] text-center">Feeling demotivated due to setbacks or failures, leading to a decrease in confidence and self-esteem.</p>

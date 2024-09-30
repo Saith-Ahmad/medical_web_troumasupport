@@ -9,7 +9,7 @@ const GetHelp = () => {
        whileInView={{ opacity: 1, y: 0 }}
        transition={{ duration: 0.6, delay: 0.25 }}
        viewport={{ once: true }}
-      className="mx-auto w-full md:w-[1104px] min-h-[100px] bg-dullwhite p-5 flex flex-col md:flex-row justify-center items-center flex-wrap gap-1">
+      className="mx-auto w-full min-h-[100px] bg-dullwhite p-5 flex flex-col md:flex-row justify-center items-center flex-wrap gap-1">
 
         <div className="w-full md:w-1/4 bg-white p-2 flex flex-row justify-between items-center border-2 border-[#E5E5EA] rounded-sm">
           <div className="flex flex-col">

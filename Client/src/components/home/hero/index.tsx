@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <>
       <div className="container">
-        <div className="relative flex flex-col items-start justify-center px-7 -mt-16 lg:mt-0 min-h-[450px] lg:min-h-[500px] overflow-hidden">
+        <div className="relative flex flex-col items-start justify-center px-7  lg:mt-0 min-h-[300px] lg:min-h-[500px] overflow-hidden">
           <motion.div
             initial={{ opacity: 0, x: 75 }}
             whileInView={{ opacity: 1, x: 0 }}

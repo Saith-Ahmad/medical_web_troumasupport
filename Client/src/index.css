@@ -24,3 +24,9 @@ html {
 }
 
 
+
+.heading-2{
+  @apply text-3xl md:text-[48px] font-prata leading-tight
+}
+
+
