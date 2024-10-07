@@ -12,11 +12,11 @@ const Hero = () => {
             transition={{ duration: 0.9, delay: 0.25 }}
             viewport={{ once: true }}
           >
-            <h1 className="text-3xl md:text-[60px] font-prata leading-tight animate-fade-in">
+            <h1 className="heading-1">
               Overcome Trauma, Find <br /> Peace and Healing.
             </h1>
 
-            <p className="text-base md:text-lg">
+            <p className="para-large">
               Need medical attention? <br />
               Find the closest hospital or clinic in your area.
             </p>

@@ -11,11 +11,11 @@ const ContactUs = () => {
          transition={{ duration: 0.5, delay: 0.25 }}
          viewport={{ once: true }}
         className="w-full lg:w-1/2 flex flex-col gap-6">
-          <h2 className="text-3xl md:text-[48px] font-prata leading-tight">
+          <h2 className="heading-2">
             Get the care you need
             <span className="text-primary"> with just a single click.</span>
           </h2>
-          <p className="text-base md:text-lg">
+          <p className="para-large">
             Our compassionate professionals provide trauma-informed support,
             ensuring a safe and comfortable healing environment t ailored to
             your needs.

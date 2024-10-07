@@ -8,9 +8,9 @@ import StressManagement from "../../../assets/stress-managment.png"
 const ReadAllArticles = () => {
   return (
     <div className="relative container my-20">
-      <div className="relative lg:h-[560px] rounded-3xl w-full py-5 lg:py-0"  style={{
+      <div className="relative lg:h-[590px] rounded-[60px] w-full py-5 lg:py-0 bg-offwhite lg:bg-transparent 2xl:bg-offwhite"  style={{
           backgroundImage: `url(${BackgroundReactangle})`,
-          backgroundSize: "cover",
+          backgroundSize: "contain",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}>
@@ -38,24 +38,24 @@ const ReadAllArticles = () => {
               <div className="flex flex-col max-w-[200px] items-center justify-center lg:-mt-24 ">
                 <img src={StressManagement} alt="stress management" className="w-[54px]"/>
                 <p  >Stress <span className="text-secondary">Management</span></p>
-                <p className="font-light text-[12px] text-center">Looking to manage stress? Practice deep breathing, exercise regularly, prioritize self-care, and seek support.</p>
+                <p className="font-light para-small text-center">Looking to manage stress? Practice deep breathing, exercise regularly, prioritize self-care, and seek support.</p>
               </div>
-              <div className="flex flex-col max-w-[200px] items-center justify-center lg:-mt-44">
+              <div className="flex flex-col max-w-[200px] items-center justify-center lg:-mt-24 xl:-mt-44">
                 <img src={FamilyIssues} alt="stress management" className="w-[54px] z-20"/>
                 <p className="text-center">Family <span className="text-secondary">issues</span></p>
-                <p className="font-light text-[12px] text-center">Struggling in connecting with family members, leading to conflicts and misunderstandings in relationships</p>
+                <p className="font-light para-small text-center">Struggling in connecting with family members, leading to conflicts and misunderstandings in relationships</p>
               </div>
             </div>
             <div className="flex flex-row justify-around ">
               <div className="flex flex-col max-w-[200px] items-center justify-center lg:mt-10">
                 <img src={JobProblem} alt="stress management" className="w-[54px]"/>
                 <p className="text-center">Problem in <span className="text-secondary">Job Finding</span></p>
-                <p className="font-light text-[12px] text-center">Challenges in finding a job include lack of opportunities, insufficient skills, or limited networking connections.</p>
+                <p className="font-light para-small text-center">Challenges in finding a job include lack of opportunities, insufficient skills, or limited networking connections.</p>
               </div>
               <div className="flex flex-col max-w-[200px] items-center justify-center ">
                 <img src={MoralDown} alt="stress management" className="w-[104px] rounded-sm"/>
                 <p className="text-center">Moral<span className="text-secondary">Down</span></p>
-                <p className="font-light text-[12px] text-center">Feeling demotivated due to setbacks or failures, leading to a decrease in confidence and self-esteem.</p>
+                <p className="font-light para-small text-center">Feeling demotivated due to setbacks or failures, leading to a decrease in confidence and self-esteem.</p>
               </div>
             </div>
           </motion.div>
@@ -65,7 +65,7 @@ const ReadAllArticles = () => {
            whileInView={{ opacity: 1}}
            transition={{ duration: 1.1, delay: 0.25 }}
            viewport={{ once: true }}
-          className="absolute lg:-bottom-5 lg:left-[45%] -bottom-10 bg-primary text-base text-white py-2 px-7 rounded-sm hvr-scl-primary"> 
+          className="absolute xl:-bottom-3 lg:bottom-10 lg:left-[45%] -bottom-10 bg-primary text-base text-white py-2 px-7 rounded-sm hvr-scl-primary"> 
             Read All Articles
           </motion.button>
         </div>

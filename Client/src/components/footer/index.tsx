@@ -6,8 +6,7 @@ const Footer = () => {
   return (
     <div className="bg-offwhite ">
       <div className="container">
-        <div className="flex flex-row flex-wrap justify-between items-start font-light py-10">
-          {/* 1st Column */}
+        <div className="flex flex-row flex-wrap justify-between items-start font-light py-10 ">
           <motion.div
            initial={{ opacity: 0, y: 75 }}
            whileInView={{ opacity: 1, y: 0 }}
@@ -27,7 +26,7 @@ const Footer = () => {
              whileInView={{ opacity: 1, x: 0 }}
              transition={{ duration: 0.5, delay: 0.25 }}
              viewport={{ once: true }}
-            className="bg-[#484848] rounded-full px-4 py-2 flex gap-3 w-full justify-between">
+            className="bg-[#484848] rounded-full px-4 py-2 flex gap-3 w-full justify-between max-w-[300px]">
               <X strokeWidth={2} color="white" />
               <Twitter strokeWidth={1} color="white" />
               <Facebook strokeWidth={1} color="white" />

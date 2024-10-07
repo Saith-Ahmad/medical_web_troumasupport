@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const LatestArticles = () => {
   return (
     <div className="container my-20">
-      <h2 className="text-3xl mb-5 md:text-[48px] font-prata leading-tight text-center md:text-start">
+      <h2 className="heading-2 text-center md:text-start">
         Latest
         <span className="text-primary"> Articles</span>
       </h2>

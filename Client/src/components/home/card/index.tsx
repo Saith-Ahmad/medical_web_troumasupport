@@ -20,7 +20,7 @@ const Card = () => {
 
         <div className="p-5 flex flex-col gap-3">
           <div className="flex flex-col gap-2 justify-start">
-            <h5 className="font-semibold text-lg md:text-xl">
+            <h5 className="font-semibold para-large">
               Understanding Trauma: Types, Symptoms, and Pathways  to Healing
             </h5>
             <p className="text-[13px] font-light">

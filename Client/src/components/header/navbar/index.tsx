@@ -1,5 +1,6 @@
 import HeaderTop from "../headertop";
 import search from "../../../assets/serch.svg";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -25,9 +26,11 @@ const Navbar = () => {
         <div className="lg:min-h-[80px] border-2 border-[#E3E3E3] rounded-full flex justify-between items-center px-6 py-2 lg:py-5 bg-dullwhite">
           {/* Title/ logo */}
           <div>
-            <h3 className="text-lg lg:text-2xl text-secondary font-bold">
+           <Link to='/'>
+           <h3 className="text-lg lg:text-2xl text-secondary font-bold">
               Trauma Support
             </h3>
+           </Link>
           </div>
 
           <div className="lg:hidden">
@@ -38,7 +41,7 @@ const Navbar = () => {
 
           {/* NavManu - Hidden on mobile, visible on large screens */}
           <div className="hidden lg:flex">
-            <ul className="flex space-x-5 text-sm font-medium">
+            <ul className="flex space-x-3 text-[13px] font-medium">
               <li className="relative">
                 <button
                   onClick={toggleMenuTrouma}
@@ -62,13 +65,13 @@ const Navbar = () => {
                 )}
               </li>
               <li>Find a therapist</li>
-              <li>Find a therapist</li>
+             
               <li className="relative">
                 <button
                   onClick={toggleMenuSupport}
                   className="flex items-center"
                 >
-                  Support
+                  Support Networks
                   <span className="ml-1">{isOpenSupport ? "▲" : "▼"}</span>
                 </button>
 
@@ -91,16 +94,17 @@ const Navbar = () => {
                   </ul>
                 )}
               </li>
+              <li>Tools and Assessments </li>
             </ul>
           </div>
 
           {/* Contact and Search - Visible only on large screens */}
-          <div className="hidden lg:flex gap-2">
-            <button className="bg-primary text-lg text-white py-2 px-7 rounded-full hvr-scl-primary">
+          <div className="hidden lg:flex gap-1 items-center">
+            <button className="bg-primary text-base text-white py-3 px-6 rounded-full hvr-scl-primary">
               Contact Us
             </button>
             <span>
-              <img src={search} alt="search" />
+              <img src={search} alt="search" className="w-[50x]"/>
             </span>
           </div>
         </div>
@@ -162,7 +166,7 @@ const Navbar = () => {
                 <span>
                   <img src={search} alt="search" />
                 </span>
-                <button className="bg-primary text-lg text-white py-2 px-7 rounded-full w-full hvr-scl-primary">
+                <button className="bg-primary text-base text-white py-1 px-5 rounded-full w-full hvr-scl-primary">
                   Contact Us
                 </button>
               </li>

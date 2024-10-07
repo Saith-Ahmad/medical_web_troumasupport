@@ -4,10 +4,10 @@ const CallToAction = () => {
   return (
     <div className=' my-16 container px-4'>
       <div className='flex flex-col justify-center items-center'>
-        <h2 className="text-3xl md:text-[48px] font-prata leading-tight text-center">
+        <h2 className="heading-2 text-center">
           Existence can be challenging
         </h2>
-        <p className="text-center font-light mt-2">
+        <p className="para-large font-light mt-2">
           Connecting with someone who can provide support shouldn't be a challenge.
         </p>
 
