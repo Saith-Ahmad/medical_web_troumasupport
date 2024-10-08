@@ -6,7 +6,7 @@ import FindATherapist from "./pages/find-a-therapist";
 
 const App = () => {
   return (
-     <Routes>
+    <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="/understanding-trouma" element={<UnderstandingTrouma />} />
