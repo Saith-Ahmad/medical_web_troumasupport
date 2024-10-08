@@ -7,7 +7,7 @@ import ResourcesLibrary from "./pages/ResourcesLibrary";
 
 const App = () => {
   return (
-     <Routes>
+    <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="/understanding-trouma" element={<UnderstandingTrouma />} />
