@@ -1,5 +1,6 @@
 import { MapPin } from "lucide-react";
 import addToFavourite from "../../../assets/add-to-favourite.svg"
+import { motion } from "framer-motion";
 
 interface cardProps {
     image : string,
@@ -8,7 +9,12 @@ interface cardProps {
 
 function TherapistCard({image="" , name="DR Sahb"}:cardProps) {
     return (
-        <div className=" w-full bg-offwhite flex flex-col md:flex-row justify-center items-center px-1 py-3 rounded-lg shadow-lg mb-10">
+        <motion.div
+        initial={{ opacity: 0, x: 75 }}
+             whileInView={{ opacity: 1, x: 0 }}
+             transition={{ duration: 1.2, delay: 0.25 }}
+             viewport={{ once: true }}
+        className=" w-full bg-offwhite flex flex-col md:flex-row justify-center items-center px-1 py-3 rounded-lg shadow-lg mb-10">
 
             <div className="flex flex-col items-center justify-center w-full md:w-[30%]">
                 <img
@@ -38,7 +44,7 @@ function TherapistCard({image="" , name="DR Sahb"}:cardProps) {
                     <img src={addToFavourite} alt="add to favourite" />
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 }
 

@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <>
       <HeaderTop />
-      <div className="container lg:mt-5 mt-3 relative mb-0">
+      <div className="container lg:mt-5 mt-3 relative mb-0 z-[200]">
         {/* Navbar */}
         <div className="lg:min-h-[80px] border-2 border-[#E3E3E3] rounded-full flex justify-between items-center px-6 py-2 lg:py-5 bg-dullwhite">
           {/* Title/ logo */}
@@ -53,18 +53,18 @@ const Navbar = () => {
                 {isOpenTrouma && (
                   <ul className="absolute left-0 top-10 mt-2 w-60 bg-dullwhite rounded-lg font-light">
                     <li className="py-2 px-4 hover:bg-gray-100">
-                      <a href="#">Coping Strategies</a>
+                      <Link to="/understanding-trouma">Coping Strategies</Link>
                     </li>
                     <li className="py-2 px-4 hover:bg-gray-100">
-                      <a href="#">Personal Stories</a>
+                      <Link to="/understanding-trouma">Personal Stories</Link>
                     </li>
                     <li className="py-2 px-4 hover:bg-gray-100">
-                      <a href="#">Educational Resources</a>
+                      <Link to="/understanding-trouma">Educational Resources</Link>
                     </li>
                   </ul>
                 )}
               </li>
-              <li>Find a therapist</li>
+              <li><Link to='/find-a-therapist'>Find a therapist</Link></li>
              
               <li className="relative">
                 <button

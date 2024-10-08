@@ -56,15 +56,11 @@ html {
 
 
 
-
-
-
-
-
+/* Css for range input field in sidebar */
 .slider {
   appearance: none;
   height: 20px; 
-  background: #d1d5db; 
+  background: #d1d5db61; 
   border-radius: 10px; 
   outline: none; 
 }
@@ -72,16 +68,16 @@ html {
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none; 
   appearance: none; 
-  width: 30px; 
-  height: 30px; 
+  width: 25px; 
+  height: 25px; 
   border-radius: 50%; 
   background: #EB6F2D; 
   cursor: pointer; 
 }
 
 .slider::-moz-range-thumb {
-  width: 30px;
-  height: 30px; 
+  width: 25px;
+  height: 25px; 
   border-radius: 50%; 
   background: #EB6F2D; 
   cursor: pointer; 

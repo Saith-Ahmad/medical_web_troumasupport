@@ -9,8 +9,8 @@ function DistanceMeasurment() {
   
 
   return (
-    <div className="p-4 w-full">
-      <form className="flex flex-col mb-4 gap-y-3 mt-5">
+    <div className="py-4 px-1 w-full">
+      <div className="flex flex-col mb-4 gap-y-3 mt-5 w-full min-w-[230px]">
         <label htmlFor="distance" className="mb-1 para-large">
           With-in <span className="bg-white px-3 py-2 rounded-lg min-w-[100px]">{distance}</span> miles
         </label>
@@ -22,9 +22,9 @@ function DistanceMeasurment() {
           max="100" 
           value={distance}
           onChange={handleSliderChange}
-          className="slider w-full min-w-[200px]"
+          className="slider w-full mt-2"
           />
-      </form>
+      </div>
     </div>
   );
 }
