@@ -1,15 +1,15 @@
 
 const Sidebar = () => {
   return (
-    <div className="w-full max-w-[300px]">
-        <h4>Categories</h4>
-        <p className="para-medium underline">Self-Assessment Tools</p>
-        <p className="para-medium underline">Coping Strategies and Exercises</p>
-        <p className="para-medium underline">Emotional Regulation Tools</p>
-        <p className="para-medium underline">Journaling Prompts and Self-Reflection</p>
-        <p className="para-medium underline">Self-Care Planning</p>
-        <p className="para-medium underline">Support and Communication Tools</p>
-        <p className="para-medium underline">Resources for Families and Caregivers</p>
+    <div className="w-full max-w-[300px] flex flex-col gap-2 mt-5">
+        <h4 className="heading-4">Categories</h4>
+        <p className="para-medium underline font-light hover:font-medium">Self-Assessment Tools</p>
+        <p className="para-medium underline font-light hover:font-medium">Coping Strategies and Exercises</p>
+        <p className="para-medium underline font-light hover:font-medium">Emotional Regulation Tools</p>
+        <p className="para-medium underline font-light hover:font-medium">Journaling Prompts and Self-Reflection</p>
+        <p className="para-medium underline font-light hover:font-medium">Self-Care Planning</p>
+        <p className="para-medium underline font-light hover:font-medium">Support and Communication Tools</p>
+        <p className="para-medium underline font-light hover:font-medium">Resources for Families and Caregivers</p>
     </div>
   )
 }

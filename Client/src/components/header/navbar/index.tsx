@@ -124,19 +124,19 @@ const Navbar = () => {
                 {isOpenTrouma && (
                   <ul className="pl-4 mt-2 font-light">
                     <li className="py-1 hover:bg-gray-100">
-                      <a href="#">Coping Strategies</a>
+                      <Link to="/understanding-trouma">Coping Strategies</Link>
                     </li>
                     <li className="py-1 hover:bg-gray-100">
-                      <a href="#">Personal Stories</a>
+                      <Link to="/understanding-trouma">Personal Stories</Link>
                     </li>
                     <li className="py-1 hover:bg-gray-100">
-                      <a href="#">Educational Resources</a>
+                      <Link to="/understanding-trouma">Educational Resources</Link>
                     </li>
                   </ul>
                 )}
               </li>
-              <li>Find a therapist</li>
-              <li>Find a therapist</li>
+              <li><Link to="/find-a-therapist">Find a therapist</Link></li>
+              <li><Link to="/find-a-therapist">Find a therapist</Link></li>
               <li>
                 <button
                   onClick={toggleMenuSupport}

@@ -6,7 +6,7 @@ import Exercies from "../../../assets/elevate-skills-with-focused-indoor-padel-t
 
 const ResourceCardWraper = () => {
   return (
-    <div className='container flex flex-row flex-wrap gap-10 my-10'>
+    <div className='flex flex-row flex-wrap gap-10 my-10'>
         <ResourceCard img={SelfAssesment} month='April' topic='Self-Assesment-Tools' title='Understanding Trauma: Types, Symptoms, and Pathways to Healing'/>
         <ResourceCard img={Exercies} month='Sep' topic='Coping Strategies' title='Coping with Trauma: Practical Strategies for Everyday Resilience'/>
         <ResourceCard img={SelfCare} month='April' topic='Self-Care Planning' title='5 Effective Trauma Therapy Techniques: Finding the Right Approach for You'/>

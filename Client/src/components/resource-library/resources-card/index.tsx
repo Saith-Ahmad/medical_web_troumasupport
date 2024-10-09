@@ -1,5 +1,6 @@
 
 import { Mail, MoveRightIcon } from "lucide-react";
+import { motion } from "framer-motion";
 interface ResourceCardProps {
     img? : string,
     month? : string,
@@ -9,7 +10,12 @@ interface ResourceCardProps {
 
 const ResourceCard = ({img, month, topic, title} : ResourceCardProps) => {
   return (
-    <div className="w-full max-w-[330px]">
+    <motion.div
+    initial={{ opacity: 0, x: 75 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.9, delay: 0.5 }}
+    viewport={{ once: true }}
+    className="w-full max-w-[320px]">
       <div className="flex flex-col rounded-lg overflow-hidden bg-offwhite shadow-lg">
         <div className="relative">
           <img src={img} alt="Consultation" className="w-full h-48 object-cover" />
@@ -31,7 +37,7 @@ const ResourceCard = ({img, month, topic, title} : ResourceCardProps) => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
