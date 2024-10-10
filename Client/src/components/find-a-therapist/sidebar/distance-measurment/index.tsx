@@ -10,7 +10,7 @@ function DistanceMeasurment() {
 
   return (
     <div className="py-4 px-1 w-full">
-      <div className="flex flex-col mb-4 gap-y-3 mt-5 w-full min-w-[230px]">
+      <div className="flex flex-col mb-4 gap-y-3 mt-5 w-full lg:min-w-[200px]">
         <label htmlFor="distance" className="mb-1 para-large">
           With-in <span className="bg-white px-3 py-2 rounded-lg min-w-[100px]">{distance}</span> miles
         </label>
