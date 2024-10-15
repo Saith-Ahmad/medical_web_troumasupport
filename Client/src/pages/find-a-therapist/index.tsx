@@ -2,7 +2,7 @@ import Hero from "@/components/understanding-trouma/hero";
 import FindTherapist from "../../assets/find-a-therapist-banner.png";
 import TherapistSearch from "@/components/find-a-therapist/therapist-serach";
 import Sidebar from "@/components/find-a-therapist/sidebar";
-import { CircleX, FilterIcon } from "lucide-react";
+import { CircleX, SlidersHorizontal } from "lucide-react";
 import { useState } from "react";
 import TherapistList from "@/components/find-a-therapist/therapist-List";
 
@@ -28,7 +28,7 @@ function FindATherapist() {
           >
             Apply Filters
             {!isSidebarOpen? 
-            <FilterIcon
+            <SlidersHorizontal
             className="text-white cursor-pointer"
           />:
           <CircleX className="text-white cursor-pointer"/>  

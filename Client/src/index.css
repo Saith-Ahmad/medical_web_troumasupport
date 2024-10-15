@@ -49,6 +49,9 @@ html {
 .para-large{
   @apply text-base md:text-lg
 }
+.para-medium{
+  @apply text-[13px] md:text-[14px]
+}
 .para-small{
   @apply text-[12px]
 }
