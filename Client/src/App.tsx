@@ -8,6 +8,8 @@ import FindATherapistDetails from "./pages/find-a-therapist-details";
 import AboutUs from "./pages/about-us";
 import Stories from "./pages/stories";
 import ResourceLibrayDeatil from "./pages/resource-library-details";
+import TherapistChat from "./pages/therapist-chat";
+// import ChatRoom from "./pages/chat-room";
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
         <Route path="/resource-library" element={<ResourcesLibrary/>} />
         <Route path="/stories" element={<Stories />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/therapist-chat" element={<TherapistChat />} />
+        {/* <Route path="/chat-room" element={<ChatRoom />} /> */}
       </Route>
     </Routes>
   );

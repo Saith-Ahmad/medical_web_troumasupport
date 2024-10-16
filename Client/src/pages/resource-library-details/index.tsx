@@ -26,7 +26,7 @@ function ResourceLibrayDeatil() {
             viewport={{ once: true }}
             className="flex flex-col gap-3 my-10">
                 <p className="para-large font-light">We envision a world where individuals affected by trauma are empowered to heal and thrive. We aim to provide a safe, supportive space where survivors can share their stories, access professional resources, and find comfort in community. Through education, empathy, and a holistic approach to healing, we seek to foster resilience and inspire hope in those walking the path of recovery.</p>
-                <img src={ArticleImage} alt="Article" /> 
+                <img src={ArticleImage} alt="Article" className="rounded-lg"/> 
                 <h3 className="heading-3">Overview</h3>
                 <ul className="pl-10 flex flex-col gap-3 para-large font-light list-disc list-inside">
                     <li>Healing from trauma involves both psychological and physiological pathways, often requiring a holistic approach. Therapy, such as Cognitive Behavioral Therapy (CBT), Eye Movement Desensitization and Reprocessing (EMDR), or trauma-focused counseling, can help individuals process and reframe their experiences. Somatic therapies, which focus on reconnecting the mind and body, are also highly beneficial in releasing stored trauma in the body. </li>

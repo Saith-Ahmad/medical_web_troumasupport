@@ -6,6 +6,8 @@ import Sidebar_Stories from "@/components/stories/sidebar_stories"
 import StoriesCardWrapper from "@/components/stories/stories_card_wrapper"
 import { useState } from "react"
 import { CircleX, SlidersHorizontal } from "lucide-react"
+import ArticlesAandGuides from "@/components/stories/articles-and-guides"
+import CallToAction2 from "@/components/understanding-trouma/callToAction2"
 
 
 function Stories() {
@@ -44,9 +46,10 @@ function Stories() {
 
           <div className="md:w-[74%] w-full">
             <StoriesCardWrapper/>
+            <ArticlesAandGuides/>
           </div>
         </div>
-
+        <CallToAction2/>
     </div>
   )
 }
