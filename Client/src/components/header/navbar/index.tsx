@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom"; // Import useLocation
 import HeaderTop from "../headertop";
 import search from "../../../assets/serch.svg";
-import { SquareMenu, SquareX } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isOpenTrouma, setIsOpenTrouma] = useState(false);
@@ -38,7 +38,7 @@ const Navbar = () => {
 
           <div className="lg:hidden">
             <button onClick={toggleMobileMenu} className="text-2xl text-gray-800">
-              {!isMobileMenuOpen? <SquareMenu strokeWidth={2} size={32}/> : <SquareX strokeWidth={2} size={32}/>}
+              {!isMobileMenuOpen? <Menu strokeWidth={2} size={32}/> : <X strokeWidth={2} size={32}/>}
             </button>
           </div>
 
