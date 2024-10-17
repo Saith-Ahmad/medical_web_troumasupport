@@ -1,5 +1,4 @@
 import CatAndBook from "../../../assets/Cat and book 1.png";
-import Book from "../../../assets/book.png";
 import { motion } from "framer-motion";
 
 function SelfCarePlans() {
@@ -11,12 +10,6 @@ function SelfCarePlans() {
         transition={{ duration: 0.6, delay: 0.25 }}
         viewport={{ once: true }}
         className="bg-[#BFAF9C] min-h-[220px] w-full flex flex-col md:flex-row items-center justify-between  gap-y-5 relative"
-        style={{
-          backgroundImage: `url(${Book})`, 
-          backgroundSize: "cover",         
-          backgroundPosition: "overlay",    
-          backgroundBlendMode: "luminosity",  
-        }}
       >
         <div className="p-5 w-full flex flex-col md:flex-row gap-y-5 items-center justify-around">
           <h3 className="text-center md:text-start heading-3">Self-Care Plans</h3>

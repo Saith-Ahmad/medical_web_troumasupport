@@ -1,6 +1,6 @@
 import JobProblem from "../../../assets/problem-in-job-finding.png"
 import MoralDown from "../../../assets/moral-down.png"
-import BackgroundReactangle from "../../../assets/background_rectangle.svg"
+import BackgroundRectangle from "../../../assets/background-rectangle.png";
 import { motion } from "framer-motion"
 import FamilyIssues from "../../../assets/family-isues.png"
 import StressManagement from "../../../assets/stress-managment.png"
@@ -9,7 +9,7 @@ const ReadAllArticles = () => {
   return (
     <div className="relative container my-20">
       <div className="relative lg:h-[590px] rounded-[60px] w-full py-5 lg:py-0 bg-offwhite lg:bg-transparent 2xl:bg-offwhite"  style={{
-          backgroundImage: `url(${BackgroundReactangle})`,
+          backgroundImage: `url(${BackgroundRectangle})`,
           backgroundSize: "contain",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
