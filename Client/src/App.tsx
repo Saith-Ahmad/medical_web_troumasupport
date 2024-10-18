@@ -13,7 +13,7 @@ import ChatRoom from "./pages/chat-room";
 
 const App = () => {
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden md:overflow-x-visible">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

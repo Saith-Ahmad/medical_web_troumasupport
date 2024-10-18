@@ -12,7 +12,7 @@ const Hero: React.FC<HeroProps> = ({ image, info }) => {
              whileInView={{ opacity: 1, scale:1 }}
              transition={{ duration: 0.9, delay: 0.25 }}
              viewport={{ once: true }}
-            className="bg-[#CDF5FE] rounded-t-full">
+            className="bg-[#CDF5FE] rounded-t-full min-h-[380px]">
                 <div className="container w-full h-full py-6 flex flex-col items-center justify-center  lg:min-h-[400px]">
                     <img src={image} alt="Trouma" className="w-[290px] mt-5"/>
                     <h2 className="heading-3 text-center mt-2">

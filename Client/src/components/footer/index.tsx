@@ -11,7 +11,6 @@ const Footer = () => {
            initial={{ opacity: 0, y: 75 }}
            whileInView={{ opacity: 1, y: 0 }}
            transition={{ duration: 0.5, delay: 0.25 }}
-           viewport={{ once: true }}
           className="flex flex-col justify-center items-start lg:w-[24%] space-y-4 p-5">
             <h3 className="text-lg lg:text-2xl text-secondary font-bold text-center">
               Trauma Support
@@ -25,7 +24,6 @@ const Footer = () => {
              initial={{ opacity: 0, x: -75 }}
              whileInView={{ opacity: 1, x: 0 }}
              transition={{ duration: 0.5, delay: 0.25 }}
-             viewport={{ once: true }}
             className="bg-[#484848] rounded-full px-4 py-2 flex gap-3 w-full justify-between max-w-[300px]">
               <X strokeWidth={2} color="white" />
               <Twitter strokeWidth={1} color="white" />
@@ -37,7 +35,6 @@ const Footer = () => {
            initial={{ opacity: 0, x: 75 }}
            whileInView={{ opacity: 1, x: 0 }}
            transition={{ duration: 0.9, delay: 0.25 }}
-           viewport={{ once: true }}
           className="lg:ms-10 flex flex-col justify-center items-start lg:w-[24%] w-1/2 space-y-4 p-5">
             <p className="text-[#484848] font-bold">Get Care</p>
             <ul className="text-[14px] font-light">
@@ -52,7 +49,6 @@ const Footer = () => {
            initial={{ opacity: 0, y: -75 }}
            whileInView={{ opacity: 1, y: 0 }}
            transition={{ duration: 1.1, delay: 0.05 }}
-           viewport={{ once: true }}
           className="flex flex-col justify-center items-start lg:w-[24%] w-1/2 space-y-4 p-5">
             <p className="text-[#484848] font-bold">Providers </p>
             <ul className="text-[14px] font-light">
@@ -67,7 +63,6 @@ const Footer = () => {
            initial={{ opacity: 0, y: 75, x:50 }}
            whileInView={{ opacity: 1, y: 0, x:0 }}
            transition={{ duration: 0.7, delay: 0 }}
-           viewport={{ once: true }}
           className="flex flex-col justify-center items-start lg:w-[24%] w-1/2 space-y-4 p-5">
             <p className="text-[#484848] font-bold">Get Care</p>
             <ul className="text-[14px] font-light">
@@ -83,7 +78,6 @@ const Footer = () => {
          initial={{ opacity: 0, y: 10 }}
          whileInView={{ opacity: 1, y: 0 }}
          transition={{ duration: 0.5, delay: 0.25 }}
-         viewport={{ once: true }}
         className="border-t-2 border-t-[dullwhite] py-2">
           <p className="text-center font-light text-[14px]">
             Copyright @ 2024 All rights reserved{" "}
