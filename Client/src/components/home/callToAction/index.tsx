@@ -7,7 +7,7 @@ const CallToAction = () => {
         <h2 className="heading-2 text-center">
           Existence can be challenging
         </h2>
-        <p className="para-large font-light mt-2">
+        <p className="para-large font-light mt-2 text-center">
           Connecting with someone who can provide support shouldn't be a challenge.
         </p>
 

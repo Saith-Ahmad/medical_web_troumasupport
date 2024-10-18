@@ -13,20 +13,22 @@ import ChatRoom from "./pages/chat-room";
 
 const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="/understanding-trouma" element={<UnderstandingTrouma />} />
-        <Route path="/find-a-therapist" element={<FindATherapist />} />
-        <Route path="/find-a-therapist/details" element={<FindATherapistDetails />} />
-        <Route path="/resource-library/details" element={<ResourceLibrayDeatil />} />
-        <Route path="/resource-library" element={<ResourcesLibrary/>} />
-        <Route path="/stories" element={<Stories />} />
-        <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/therapist-chat" element={<TherapistChat />} />
-        <Route path="/chat-room" element={<ChatRoom />} />
-      </Route>
-    </Routes>
+    <div className="overflow-x-hidden">
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/understanding-trouma" element={<UnderstandingTrouma />} />
+          <Route path="/find-a-therapist" element={<FindATherapist />} />
+          <Route path="/find-a-therapist/details" element={<FindATherapistDetails />} />
+          <Route path="/resource-library/details" element={<ResourceLibrayDeatil />} />
+          <Route path="/resource-library" element={<ResourcesLibrary />} />
+          <Route path="/stories" element={<Stories />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/therapist-chat" element={<TherapistChat />} />
+          <Route path="/chat-room" element={<ChatRoom />} />
+        </Route>
+      </Routes>
+    </div>
   );
 };
 

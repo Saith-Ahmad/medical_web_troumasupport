@@ -2,7 +2,7 @@ import { Search } from "lucide-react"
 
 function Sidebar_Stories() {
   return (
-    <div className="min-w-[300px] bg-offwhite px-5 min-h-[1000px] mb-10 rounded-lg py-10">
+    <div className="min-w-[300px] bg-offwhite px-5 lg:min-h-[1000px] mb-10 rounded-lg py-10">
         <h5 className="heading-5">Refine Your <span className="text-primary">Search</span></h5>
         <div className="py-10 flex flex-col">
             <div className="flex justify-start items-center bg-white px-3 rounded-lg">
