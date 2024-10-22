@@ -1,4 +1,6 @@
-import { X, Twitter, Facebook } from "lucide-react";
+import X from "../../assets/X.svg"
+import Fb from "../../assets/fb.svg"
+import LinkedIn from "../../assets/linkedin.svg"
 import { motion } from "framer-motion";
 import {} from "lucide-react";
 
@@ -25,9 +27,9 @@ const Footer = () => {
              whileInView={{ opacity: 1, x: 0 }}
              transition={{ duration: 0.5, delay: 0.25 }}
             className="bg-[#484848] rounded-full px-4 py-2 flex gap-3 w-full justify-between max-w-[300px]">
-              <X strokeWidth={2} color="white" />
-              <Twitter strokeWidth={1} color="white" />
-              <Facebook strokeWidth={1} color="white" />
+              <img src={Fb} alt="facebook"/>
+              <img src={LinkedIn} alt="linkedin"/>
+              <img src={X} alt="twitter"/>
             </motion.div>
           </motion.div>
 

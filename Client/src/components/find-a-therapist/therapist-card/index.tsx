@@ -38,7 +38,7 @@ function TherapistCard({image="" , name="DR Sahb"}:cardProps) {
                 <p className="para-small mb-4 text-gray-800">Psychoanalytic Psychotherapist, PhD from the University of Manchester (Research area: OCD)</p>
                 <p className="para-medium ">Dr. Doe is a highly experienced clinical psychologist specializing in trauma recovery and emotional well-being. With over 15 years of experience</p>
 
-                <div className="flex gap-2 justify-start items-center">
+                <div className="flex gap-3 justify-start items-center mt-10">
                     <button className="hvr-scl-primary bg-primary px-4 py-2 text-white rounded-md">View Profile</button>
                     <button className="hvr-scl-secondary bg-secondary px-4 py-2 text-white rounded-md">Email me</button>
                     <img src={addToFavourite} alt="add to favourite" />

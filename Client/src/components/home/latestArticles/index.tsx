@@ -14,7 +14,7 @@ const LatestArticles = () => {
        whileInView={{ opacity: 1, y: 0 }}
        transition={{ duration: 0.9, delay: 0.25 }}
        viewport={{ once: true }}
-      className="flex flex-col lg:flex-row gap-8 justify-between">
+      className="flex flex-col lg:flex-row gap-10 justify-between">
         <Card />
         <Card />
         <Card />

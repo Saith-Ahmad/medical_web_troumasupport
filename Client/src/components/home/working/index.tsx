@@ -20,19 +20,19 @@ const HowItWorks = () => {
         <div className="flex flex-col w-full lg:w-[32%] justify-center items-center space-y-2">
             <img src={BestPractice} alt="best practice" className="w-[152px]"/>
             <h5 className="heading-5 text-secondary font-semibold">Best Online professional</h5>
-            <p className="font-light text-center">Find top online professionals specializing in trauma care, therapy, counselling, mental health</p>
+            <p className="font-[400] text-center">Find top online professionals specializing in trauma care, therapy, counselling, mental health</p>
         </div>
 
         <div className="flex flex-col w-full lg:w-[32%] justify-center items-center space-y-2">
             <img src={InstantAppointment} alt="Instant Appointment" className="w-[152px]"/>
             <h5 className="heading-5 text-secondary font-semibold">Get Instant Appoitment</h5>
-            <p className="font-light text-center">Book an appointment with our trauma specialists for immediate support and personalized care.</p>
+            <p className="font-[400] text-center">Book an appointment with our trauma specialists for immediate support and personalized care.</p>
         </div>
 
         <div className="flex flex-col w-full lg:w-[32%] justify-center items-center space-y-2">
             <img src={Feedback} alt="Feedback" className="w-[152px]"/>
             <h5 className="heading-5 text-secondary font-semibold">Leave YourFeedback</h5>
-            <p className="font-light text-center">Share your experience and help us improve our services with your valuable feedback.</p>
+            <p className="font-[400] text-center">Share your experience and help us improve our services with your valuable feedback.</p>
         </div>
 
       </motion.div>

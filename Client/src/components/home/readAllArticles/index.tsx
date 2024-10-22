@@ -34,28 +34,28 @@ const ReadAllArticles = () => {
            transition={{ duration: 0.9, delay: 0.45 }}
            viewport={{ once: true }}
           className="lg:w-1/2 w-full flex flex-col justify-between gap-5">
-            <div className="flex flex-row justify-around">
-              <div className="flex flex-col max-w-[200px] items-center justify-center lg:-mt-24 ">
-                <img src={StressManagement} alt="stress management" className="w-[54px]"/>
-                <p  >Stress <span className="text-secondary">Management</span></p>
-                <p className="font-light para-small text-center">Looking to manage stress? Practice deep breathing, exercise regularly, prioritize self-care, and seek support.</p>
+            <div className="flex flex-row gap-5 justify-around">
+              <div className="flex flex-col gap-1 max-w-[200px] items-start justify-center lg:-mt-24 ">
+                <img src={StressManagement} alt="stress management" className="w-[54px] self-center mb-5"/>
+                <p>Stress <span className="text-secondary">Management</span></p>
+                <p className="font-light para-medium">Looking to manage stress? Practice deep breathing, exercise regularly, prioritize self-care, and seek support.</p>
               </div>
-              <div className="flex flex-col max-w-[200px] items-center justify-center lg:-mt-24 xl:-mt-44">
-                <img src={FamilyIssues} alt="stress management" className="w-[54px] z-20"/>
-                <p className="text-center">Family <span className="text-secondary">issues</span></p>
-                <p className="font-light para-small text-center">Struggling in connecting with family members, leading to conflicts and misunderstandings in relationships</p>
+              <div className="flex flex-col gap-1 max-w-[200px] items-start justify-center lg:-mt-24 xl:-mt-24">
+                <img src={FamilyIssues} alt="stress management" className="w-[54px] z-20 self-center mb-5"/>
+                <p className="">Family <span className="text-secondary">issues</span></p>
+                <p className="font-light para-medium">Struggling in connecting with family members, leading to conflicts and misunderstandings in relationships</p>
               </div>
             </div>
-            <div className="flex flex-row justify-around ">
-              <div className="flex flex-col max-w-[200px] items-center justify-center lg:mt-10">
-                <img src={JobProblem} alt="stress management" className="w-[54px]"/>
-                <p className="text-center">Problem in <span className="text-secondary">Job Finding</span></p>
-                <p className="font-light para-small text-center">Challenges in finding a job include lack of opportunities, insufficient skills, or limited networking connections.</p>
+            <div className="flex flex-row justify-around gap-5 ">
+              <div className="flex flex-col gap-1 max-w-[200px] items-start justify-center lg:mt-10">
+                <img src={JobProblem} alt="stress management" className="w-[54px] self-center mb-5"/>
+                <p className="">Problem in <span className="text-secondary">Job Finding</span></p>
+                <p className="font-light para-medium">Challenges in finding a job include lack of opportunities, insufficient skills, or limited networking connections.</p>
               </div>
-              <div className="flex flex-col max-w-[200px] items-center justify-center ">
-                <img src={MoralDown} alt="stress management" className="w-[104px] rounded-sm"/>
-                <p className="text-center">Moral<span className="text-secondary">Down</span></p>
-                <p className="font-light para-small text-center">Feeling demotivated due to setbacks or failures, leading to a decrease in confidence and self-esteem.</p>
+              <div className="flex flex-col gap-1 max-w-[200px] items-start justify-center ">
+                <img src={MoralDown} alt="stress management" className="w-[104px] rounded-sm self-center mb-5"/>
+                <p className="">Moral<span className="text-secondary">Down</span></p>
+                <p className="font-light para-medium">Feeling demotivated due to setbacks or failures, leading to a decrease in confidence and self-esteem.</p>
               </div>
             </div>
           </motion.div>

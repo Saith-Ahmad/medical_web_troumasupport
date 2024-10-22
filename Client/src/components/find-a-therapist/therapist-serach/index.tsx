@@ -15,29 +15,26 @@ function TherapistSearch() {
       </motion.h3>
 
       <div className="min-h-[100px] bg-white shadow-lg py-3 flex flex-col justify-center p-5 rounded-xl">
-        <form className="flex flex-col md:flex-row md:items-center md:justify-between">
-          {/* Therapist Name Select */}
+        <form className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+
+
+            <input className="md:min-w-[450px] p-3 pr-10 border rounded-lg font-normal min-h-[60px] bg-white  focus:outline-none focus:ring-2 focus:ring-primary placeholder-gray-900" 
+                placeholder="Search by Therapist Name"
+            />
+
+          {/* Location Select */}
           <motion.select
            initial={{ opacity: 0, y: 75 }}
            whileInView={{ opacity: 1, y: 0 }}
            transition={{ duration: 0.9, delay: 0.25 }}
            viewport={{ once: true }}
-          className="flex-1 md:mr-2 mb-2 md:mb-0 p-2 border border-gray-300 rounded-md min-h-[60px]  focus:border-primary  focus:outline-none focus:border-none focus:ring focus:ring-primary">
-            <option value="" disabled selected>Select Therapist</option>
-            <option value="therapist1">Therapist 1</option>
-            <option value="therapist2">Therapist 2</option>
-            <option value="therapist3">Therapist 3</option>
-            <option value="therapist4">Therapist 4</option>
-          </motion.select>
-
-          {/* Location Select */}
-          <select className="flex-1 md:mr-2 mb-2 md:mb-0 p-2 border border-gray-300 rounded-md min-h-[60px] focus:border-primary focus:outline-none focus:border-none focus:ring focus:ring-primary ">
+          className="flex-1 md:mr-2 font-light md:min-w-[450px] mb-2 md:mb-0 p-2 border border-gray-300 rounded-md min-h-[60px]  focus:outline-none focus:border-none focus:ring-[2px] focus:ring-primary ">
             <option value="" disabled selected>Select Location</option>
             <option value="location1">Location 1</option>
             <option value="location2">Location 2</option>
             <option value="location3">Location 3</option>
             <option value="location4">Location 4</option>
-          </select>
+          </motion.select>
 
           {/* Submit Button */}
           <motion.button

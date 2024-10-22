@@ -1,14 +1,14 @@
 
-import Consultation from "../../../assets/consultation.png";
+import Consultation from "../../../assets/group-supporting-depressed-man-with-alcoholism-pro-2024-03-19-20-57-50-utc.png";
 import Profile from "../../../assets/profile.png";
 import { Mail } from "lucide-react";
 
 const Card = () => {
   return (
-    <div className="w-full">
-      <div className="flex flex-col rounded-lg overflow-hidden bg-offwhite shadow-lg">
+    <div className="w-full max-w-[380px]">
+      <div className="flex flex-col rounded-lg overflow-hidden bg-offwhite shadow-sm">
         <div className="relative">
-          <img src={Consultation} alt="Consultation" className="w-full h-48 object-cover" />
+          <img src={Consultation} alt="Consultation" className="w-full object-cover h-[240px]" />
           <div className="bg-white w-[280px] absolute bottom-2 left-2 rounded-lg px-3 py-2 flex flex-row justify-between font-semibold">
             <p className="font-semibold">April</p>
             <div className="flex flex-row justify-center items-center gap-1">
