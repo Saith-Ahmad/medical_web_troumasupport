@@ -6,7 +6,7 @@ function AboutUs() {
     return (
         <div className="container mt-10">
             <h3 className="heading-3">About <span className="text-primary">Us</span></h3>
-            <div className="'w-full bg-offwhite p-1 lg:px-6 rounded-xl shadow-xl my-10 font-light md:w-[80%] md:ms-[10vh]">
+            <div className="'w-full bg-offwhite p-1 lg:px-6 rounded-xl shadow-xl my-10 font-light md:w-[85%] md:ms-[10vh]">
                 <div>
                     <JumpTo />
                     <motion.div
