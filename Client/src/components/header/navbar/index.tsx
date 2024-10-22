@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom"; // Import useLocation
+import { Link, useLocation } from "react-router-dom";
 import HeaderTop from "../headertop";
 import search from "../../../assets/serch.svg";
 import { Menu, X } from "lucide-react";
@@ -8,10 +8,10 @@ const Navbar = () => {
   const [isOpenTrouma, setIsOpenTrouma] = useState(false);
   const [isOpenSupport, setIsOpenSupport] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isHoveringNavbar, setIsHoveringNavbar] = useState(false); // Track hover state
+  const [isHoveringNavbar, setIsHoveringNavbar] = useState(false); 
   const location = useLocation();
 
-  // Close sub-menus when navigating to a new page
+  
   useEffect(() => {
     setIsOpenTrouma(false);
     setIsOpenSupport(false);
@@ -23,12 +23,12 @@ const Navbar = () => {
   };
 
   const handleNavbarMouseEnter = () => {
-    setIsHoveringNavbar(true); // Set to true when hovering
+    setIsHoveringNavbar(true); 
   };
 
   const handleNavbarMouseLeave = () => {
-    setIsHoveringNavbar(false); // Set to false when not hovering
-    setIsOpenTrouma(false); // Close submenus when leaving
+    setIsHoveringNavbar(false); 
+    setIsOpenTrouma(false); 
     setIsOpenSupport(false);
   };
 
@@ -38,8 +38,8 @@ const Navbar = () => {
       <div className="container lg:mt-5 mt-3 relative mb-0 z-[200]">
         <div
           className="lg:min-h-[80px] border-2 border-[#E3E3E3] rounded-full flex justify-between items-center px-6 py-2 lg:py-5 bg-dullwhite"
-          onMouseEnter={handleNavbarMouseEnter} // Track when hovering over navbar
-          onMouseLeave={handleNavbarMouseLeave} // Close menus when leaving navbar
+          onMouseEnter={handleNavbarMouseEnter} 
+          onMouseLeave={handleNavbarMouseLeave} 
         >
           <div>
             <Link to='/'>
