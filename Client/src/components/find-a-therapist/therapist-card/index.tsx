@@ -30,7 +30,7 @@ function TherapistCard({ image = "", name = "Dr. Sahb" }: CardProps) {
         </div>
       </div>
 
-      <div className="flex flex-col justify-start items-start w-full md:w-[65%] p-3">
+      <div className="flex flex-col justify-start items-start w-full md:w-[65%] p-3 gap-2">
         <div className="flex gap-4">
           <h5 className="text-2xl font-semibold">{name}</h5>
           <button className="bg-green-700 rounded-3xl px-3 text-white">
@@ -54,7 +54,7 @@ function TherapistCard({ image = "", name = "Dr. Sahb" }: CardProps) {
           <button className="hvr-scl-secondary bg-secondary px-4 py-2 text-white rounded-md">
             Email me
           </button>
-          <img src={addToFavourite} alt="add to favourite" />
+          <img src={addToFavourite} alt="add to favourite" className="hover:scale-105"/>
         </div>
       </div>
     </motion.div>

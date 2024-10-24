@@ -38,61 +38,61 @@ const ReadAllArticles = () => {
             viewport={{ once: true }}
             className="lg:w-1/2 w-full flex flex-col justify-between gap-5"
           >
-            <div className="flex flex-row justify-around">
-              <div className="flex flex-col gap-1 max-w-[200px] items-start justify-center lg:-mt-24">
+            <div className="flex flex-row justify-around items-end gap-1">
+              <div className="flex flex-col gap-1 max-w-[280px] items-start justify-center">
                 <img
                   src={StressManagement}
                   alt="Stress Management"
                   className="w-[54px] self-center mb-5"
                 />
                 <p>
-                  Stress <span className="text-secondary">Management</span>
+                  Stress <span className="text-secondary font-semibold">Management</span>
                 </p>
-                <p className="font-light para-medium">
+                <p className="font-light para-medium leading-6">
                   Looking to manage stress? Practice deep breathing, exercise
                   regularly, prioritize self-care, and seek support.
                 </p>
               </div>
-              <div className="flex flex-col gap-1 max-w-[200px] items-start justify-center lg:-mt-24 xl:-mt-24">
+              <div className="flex flex-col gap-1 max-w-[280px] items-start justify-center">
                 <img
                   src={FamilyIssues}
                   alt="Family Issues"
-                  className="w-[54px] z-20 self-center mb-5"
+                  className="w-[74px] z-20 self-center mb-5"
                 />
-                <p className="">
+                <p className="font-semibold">
                   Family <span className="text-secondary">issues</span>
                 </p>
-                <p className="font-light para-medium">
+                <p className="font-light para-medium leading-6">
                   Struggling in connecting with family members, leading to
                   conflicts and misunderstandings in relationships.
                 </p>
               </div>
             </div>
-            <div className="flex flex-row justify-around gap-5">
-              <div className="flex flex-col gap-1 max-w-[200px] items-start justify-center lg:mt-10">
+            <div className="flex flex-row justify-around items-end gap-1 lg:gap-5">
+              <div className="flex flex-col gap-1 max-w-[280px] items-start justify-center">
                 <img
                   src={JobProblem}
                   alt="Job Finding Problems"
                   className="w-[54px] self-center mb-5"
                 />
-                <p className="">
+                <p className="font-semibold">
                   Problem in <span className="text-secondary">Job Finding</span>
                 </p>
-                <p className="font-light para-medium">
+                <p className="font-light para-medium leading-6">
                   Challenges in finding a job include lack of opportunities,
                   insufficient skills, or limited networking connections.
                 </p>
               </div>
-              <div className="flex flex-col gap-1 max-w-[200px] items-start justify-center">
+              <div className="flex flex-col gap-1 max-w-[280px] items-start justify-center">
                 <img
                   src={MoralDown}
                   alt="Moral Down"
                   className="w-[104px] rounded-sm self-center mb-5"
                 />
-                <p className="">
+                <p className="font-semibold">
                   Moral<span className="text-secondary"> Down</span>
                 </p>
-                <p className="font-light para-medium">
+                <p className="font-light para-medium leading-6">
                   Feeling demotivated due to setbacks or failures, leading to a
                   decrease in confidence and self-esteem.
                 </p>

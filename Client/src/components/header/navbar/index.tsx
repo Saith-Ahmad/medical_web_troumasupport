@@ -56,7 +56,7 @@ const Navbar = () => {
           </div>
 
           <div className="hidden lg:flex">
-            <ul className="flex space-x-5 text-[16px] font-medium">
+            <ul className="flex space-x-3 text-[16px] font-medium">
               <li className="relative" 
                   onMouseEnter={() => { 
                     setIsOpenTrouma(true); 
@@ -107,18 +107,19 @@ const Navbar = () => {
                       <Link to="/therapist-chat">Chat with Therapist</Link>
                     </li>
                     <li className="py-2 px-4 hover:bg-gray-100">
-                      <Link to="/chat-room">Community Chat</Link>
+                      <Link to="/stories">Personal Stories</Link>
                     </li>
                     <li className="py-2 px-4 hover:bg-gray-100">
-                      <Link to="/stories">Personal Stories</Link>
+                      <Link to="/about-us">About Us</Link>
                     </li>
                   </ul>
                 )}
               </li>
 
               <li onMouseEnter={() => { setIsOpenTrouma(false); setIsOpenSupport(false) }}>
-                <Link to='/about-us'>About Us</Link>
+                <Link to='/chat-room'>Community Chat</Link>
               </li>
+             
             </ul>
           </div>
 
@@ -174,16 +175,16 @@ const Navbar = () => {
                     <Link to="/therapist-chat">Chat with Therapist</Link>
                   </li>
                   <li className="py-1 hover:bg-gray-100">
-                    <Link to="/chat-room">Community Chat</Link>
+                    <Link to="/stories">Personal Stories</Link>
                   </li>
                   <li className="py-1 hover:bg-gray-100">
-                    <Link to="/stories">Personal Stories</Link>
+                    <Link to="/about-us">About Us</Link>
                   </li>
                 </ul>
               )}
             </li>
             <li>
-              <Link to="/about-us">About Us</Link>
+              <Link to="/chat-room">Community Chat</Link>
             </li>
             <li className="flex gap-3">
               <span>
